@@ -1,0 +1,47 @@
+
+
+/* .tab-menu .header{
+    background-color: gray;
+    width: 500px;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.tab-menu .header .item{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.tab-menu .content {
+background-color: gray;
+padding: 15px;
+color: white;
+width: 500px;
+border: 1px solid black;
+
+}
+
+.active{
+    background-color: black;
+    opacity: 0.7;
+}
+ */
+
+
+
+ .slider{
+    width: 1220px;
+ }
+
+ .slider .img{
+    width: 100%;
+    position: relative;
+ }
+
+ .slider .img img{
+    width: 100%;
+    position: absolute ;
+ }
