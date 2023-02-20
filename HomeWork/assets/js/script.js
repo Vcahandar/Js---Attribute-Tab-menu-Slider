@@ -1,6 +1,6 @@
 
 
-let btn=document.querySelector(".btn button")
+let btn=document.querySelector(".btns button")
 
 let header=document.querySelector(".header")
 
@@ -8,12 +8,12 @@ let icon=document.querySelector(".header .icon-btn")
 
 btn.addEventListener("click",function(){
     header.classList.add("active")
-    header.classList.remove("d-none")
+    this.classList.add("d-none")
 
 })
 
 icon.addEventListener("click",function(){
-    
-    header.classList.add("d-none")
+    header.classList.remove("active")
+    btn.classList.remove("d-none")
 })
 
